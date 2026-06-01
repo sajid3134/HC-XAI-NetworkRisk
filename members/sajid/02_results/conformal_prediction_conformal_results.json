@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-05-31T17:42:03.414984",
+  "method": "Split Conformal Prediction (Angelopoulos & Bates 2023)",
+  "calibration_set_size": 194,
+  "test_set_size": 194,
+  "data_source": "194 real BORDERLINE PhishTank URLs (pp 0.30-0.70) + real SCAREWARE CICMalAnal2017 flows + real PCAPdroid Bangladesh benign flows",
+  "coverage_results": [
+    {
+      "alpha": 0.01,
+      "target_coverage": 0.99,
+      "empirical_coverage": 0.9948453608247423,
+      "avg_set_size": 1.458762886597938,
+      "singleton_rate": 0.5412371134020618,
+      "empty_rate": 0.0,
+      "q_hat": 0.9388591467169906
+    },
+    {
+      "alpha": 0.05,
+      "target_coverage": 0.95,
+      "empirical_coverage": 0.9742268041237113,
+      "avg_set_size": 1.4381443298969072,
+      "singleton_rate": 0.5618556701030928,
+      "empty_rate": 0.0,
+      "q_hat": 0.9090802963461547
+    },
+    {
+      "alpha": 0.1,
+      "target_coverage": 0.9,
+      "empirical_coverage": 0.9278350515463918,
+      "avg_set_size": 1.3917525773195876,
+      "singleton_rate": 0.6082474226804123,
+      "empty_rate": 0.0,
+      "q_hat": 0.892875462777084
+    },
+    {
+      "alpha": 0.15,
+      "target_coverage": 0.85,
+      "empirical_coverage": 0.8762886597938144,
+      "avg_set_size": 1.3402061855670102,
+      "singleton_rate": 0.6597938144329897,
+      "empty_rate": 0.0,
+      "q_hat": 0.8703284740519248
+    },
+    {
+      "alpha": 0.2,
+      "target_coverage": 0.8,
+      "empirical_coverage": 0.7628865979381443,
+      "avg_set_size": 1.2268041237113403,
+      "singleton_rate": 0.7731958762886598,
+      "empty_rate": 0.0,
+      "q_hat": 0.837759604945756
+    }
+  ],
+  "paper_claim": "SecureSpeak provides distribution-free finite-sample uncertainty quantification via split conformal prediction. At \u03b1=0.10, the system guarantees that the true threat label is contained in the prediction set with at least 90% probability for any new sample from the same distribution, without assumptions on the data-generating process.",
+  "deployment_meaning": "A prediction set of {THREAT} means: act now. A prediction set of {SAFE} means: this is normal traffic. A prediction set of {THREAT, SAFE} means: uncertain \u2014 show a cautious warning and ask the user to verify manually."
+}

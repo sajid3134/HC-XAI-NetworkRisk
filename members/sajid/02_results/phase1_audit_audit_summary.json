@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-05-20T16:26:17.146518",
+  "datasets": {
+    "stealthphisher_2025": {
+      "rows": 336749,
+      "cols": 65,
+      "label_col": "Label",
+      "verdict": "healthy"
+    },
+    "bangalabarta_sms": {
+      "rows": 2772,
+      "cols": 2,
+      "label_col": "label",
+      "verdict": "usable_needs_relabel"
+    },
+    "cicmalanal_2017": {
+      "families": [
+        {
+          "name": "NONE",
+          "status": "OK",
+          "files": 1700,
+          "est_rows": 627300
+        },
+        {
+          "name": "SMS_MALWARE",
+          "status": "OK",
+          "files": 109,
+          "est_rows": 434583
+        },
+        {
+          "name": "ADWARE",
+          "status": "OK",
+          "files": 104,
+          "est_rows": 303368
+        },
+        {
+          "name": "RANSOMWARE",
+          "status": "OK",
+          "files": 101,
+          "est_rows": 481871
+        },
+        {
+          "name": "SCAREWARE",
+          "status": "OK",
+          "files": 112,
+          "est_rows": 414400
+        }
+      ],
+      "column_drift": false,
+      "verdict": "healthy"
+    },
+    "pcapdroid_bangladesh": {
+      "rows": 52118,
+      "cols": 17,
+      "verdict": "healthy_and_critical"
+    },
+    "unsw_nb15": {
+      "rows": 82332,
+      "cols": 45,
+      "verdict": "drop_from_paper"
+    }
+  }
+}

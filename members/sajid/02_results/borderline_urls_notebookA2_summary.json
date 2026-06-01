@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-05-31T16:23:57.844039",
+  "total_phishtank_urls": 60685,
+  "borderline_count": 194,
+  "easy_phish_count": 60329,
+  "missed_count": 162,
+  "borderline_range": [
+    0.3,
+    0.7
+  ],
+  "pp_stats": {
+    "mean": 0.9945616722106934,
+    "std": 0.054816633462905884,
+    "median": 1.0,
+    "min": 0.0,
+    "max": 1.0
+  },
+  "phiusiil_finding": "PhiUSIIL mean pp=0.013 confirms model is Bangladesh-specific. PhishTank is the correct external source for this system.",
+  "verdict": "BORDERLINE cases found: 194 \u2014 proceed to Notebook B"
+}

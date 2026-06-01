@@ -1,0 +1,23 @@
+{
+  "phase": "2.1",
+  "generated_at": "2026-05-20T16:52:31.048168",
+  "phishtank": {
+    "source_url": "http://data.phishtank.com/data/online-valid.csv",
+    "raw_rows": 60685,
+    "after_clean_and_dedup": 34791,
+    "dropped_overlap_with_stealthphisher": 24895
+  },
+  "tranco": {
+    "source_url": "https://tranco-list.eu/top-1m.csv.zip",
+    "raw_rows": 5000,
+    "after_clean_and_dedup": 4638,
+    "dropped_overlap_with_stealthphisher": 362
+  },
+  "external_test_set": {
+    "path": "/content/drive/MyDrive/cse498R/model_for_research/phase2_external/external_url_testset.csv",
+    "total_rows": 39429,
+    "phishing_count": 34791,
+    "benign_count": 4638
+  },
+  "verdict": "ready_for_scoring"
+}

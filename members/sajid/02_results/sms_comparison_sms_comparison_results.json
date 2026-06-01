@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-05-31T17:32:17.513515",
+  "dataset": "BangalaBarta 2024",
+  "train_size": 2217,
+  "test_size": 555,
+  "split": "80/20 stratified seed=42",
+  "results": [
+    {
+      "model": "SecureSpeak MiniLM+LR",
+      "acc": 0.9819819819819819,
+      "f1": 0.9820060028557275,
+      "auc": 0.9981738495252009,
+      "inference_sec": 2.1695139408111572,
+      "params_M": 118.0,
+      "note": "On-device deployable"
+    },
+    {
+      "model": "mBERT",
+      "acc": 0.9927927927927928,
+      "f1": 0.9927927927927928,
+      "auc": 0.999663988312637,
+      "inference_sec": 0.8711974620819092,
+      "params_M": 179.0,
+      "note": "Too large for on-device"
+    },
+    {
+      "model": "XLM-RoBERTa",
+      "acc": 0.990990990990991,
+      "f1": 0.990984862615158,
+      "auc": 0.9962162162162161,
+      "inference_sec": 0.8661854267120361,
+      "params_M": 278.0,
+      "note": "Too large for on-device"
+    },
+    {
+      "model": "BanglaBERT",
+      "acc": 0.9945945945945946,
+      "f1": 0.9945982222643698,
+      "auc": 0.9998392987582176,
+      "inference_sec": 0.8716366291046143,
+      "params_M": 110.0,
+      "note": "Too large for on-device"
+    }
+  ],
+  "paper_argument": "SecureSpeak MiniLM achieves comparable accuracy to BanglaBERT and XLM-RoBERTa at significantly lower inference cost, making it deployable on mid-range Bangladeshi Android devices without cloud dependency."
+}

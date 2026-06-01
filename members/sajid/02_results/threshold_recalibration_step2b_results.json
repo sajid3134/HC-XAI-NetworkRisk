@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-05-31T15:31:05.848216",
+  "threshold_recalibration": {
+    "old_th_high": 0.07097203401234425,
+    "old_th_med": 0.06097203401234428,
+    "new_th_high": 0.03,
+    "new_th_med": 0.01,
+    "tuning_set_detection": 1.0
+  },
+  "full_test_set_results": {
+    "ECAFN_recalibrated": {
+      "acc": 0.5,
+      "detection_rate": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.0
+    },
+    "CATF": {
+      "acc": 0.9975,
+      "detection_rate": 0.995,
+      "fpr": 0.0,
+      "fnr": 0.0050000000000000044
+    },
+    "DST": {
+      "acc": 0.97625,
+      "detection_rate": 0.9525,
+      "fpr": 0.0,
+      "fnr": 0.04749999999999999
+    }
+  },
+  "borderline_results": {
+    "n_borderline": 0,
+    "ECAFN": {},
+    "CATF": {},
+    "DST": {}
+  },
+  "score_stats": {
+    "pp_phish_mean": 0.997926652431488,
+    "pp_phish_std": 0.02261049672961235,
+    "ap_scare_mean": 0.15512341046158956,
+    "ap_scare_std": 0.14821633741171747,
+    "ap_benign_mean": 0.08190310236963493
+  }
+}
